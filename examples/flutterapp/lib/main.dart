@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'dart-ext:/Developer/drafts3/bazel-bin/test';
+
 void main() => runApp(new MyApp());
 
 class MyApp extends StatelessWidget {

@@ -1,9 +1,10 @@
 
 cc_library(
     name = "test",
-    srcs = [
-        "src/test.cpp"
-    ],
+    srcs = glob([
+        "src/*.cpp",
+        "src/*.h",
+    ]),
     hdrs = glob([
         "third-party/dart_c/*.h"
     ]),
